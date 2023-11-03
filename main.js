@@ -15,3 +15,9 @@ console.log(squaredArray); // Output: [2, 4, 6, 8, 10]
 const numbers = [2, 4, 6, 8, 10]
 const doubleNumbers = numbers.myMap((x) => x * 2)
 console.log(doubleNumbers)
+
+// Converting an array of strings to UpperCase
+const names = ['Karl', 'Stephanie', 'Mike', 'Joanne', 'Jennifer']
+const upperCaseNames = names.myMap((name) => name.toUpperCase())
+
+console.log(upperCaseNames)
